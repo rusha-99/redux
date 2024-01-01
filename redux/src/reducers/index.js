@@ -1,6 +1,6 @@
-import { combineReducers } from "redux";
+import {combineReducers} from "redux";
 import AllPostReducer from "./reducer-Allpost";
 
 const rootReducer = combineReducers({
-    allPosts:AllPostReducer
-    });
+    allPosts: AllPostReducer
+});
